@@ -1,13 +1,7 @@
+from AoC2023.colors import Bcolors
+
 f = open("input.txt", "r")
 strings = [str(i) for i in f.read().split('\n')]
-
-
-class Bcolors:
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-
 
 # print(strings)
 myl = []
